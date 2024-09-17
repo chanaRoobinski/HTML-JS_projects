@@ -1,0 +1,50 @@
+ a
+{
+    background-color: rgb(246, 246, 117);
+}
+
+.imag-style
+{
+   height: 3%;
+   width: 3%;
+   margin-left: 2%;
+   margin-top: 1%;
+}
+
+.imag-style:hover{
+    height: 5%;
+    width: 5%;
+}
+#ruler
+{
+height: 5%;
+background-color: rgb(246, 246, 117);
+cursor:pointer;
+position: flex;
+margin: -1% -1%;
+}
+
+
+#textImg
+{
+    position: absolute;
+     top:27px;
+      left: 55px;
+      font-size: 17px;
+      color: white;
+}
+#pro
+{
+    width:25% ;
+    padding: 5%;
+    flex-basis: 25%;
+    border-width:20% ;
+    border-style: solid;
+    margin:0.8%;
+    border-color:rgb(203, 203, 3);
+}
+#div
+{
+    display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,20 @@
+.elements
+{
+    display: flex;
+    border-style:solid;
+    margin:0.5%;
+    padding:0.8%;
+}
+.del
+{
+    background-color: rgb(247, 247, 181);
+    border: none;
+}
+#pro
+{
+    border: solid;
+}
+.cartImg
+{
+    padding-top:4% ;
+}

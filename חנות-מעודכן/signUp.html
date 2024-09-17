@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="signUp.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="shop.html">
+       <h1>sign up</h1>
+       <label>name*:</label>
+       <br>
+       <input type="text" id="name" name="username" required>
+       <br>
+       <label>password*:</label>
+       <br>
+       <input type="password" id="pass" name="password" required>
+       <br>
+       <label>Email*:</label>
+       <br>
+       <input type="email" id="mail" name="mail" required>
+       <br>
+       <label>language:</label>
+       <br>
+       <select name="language" id="lang">
+          <option name="he">Hebrew</option>
+          <option name="en">English</option>
+        </select>
+        <br>
+        <button type="submit" id="Submit" onclick="save()">sign up</button>
+    </form>
+</body>
+</html>
