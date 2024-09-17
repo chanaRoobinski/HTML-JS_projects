@@ -1,0 +1,57 @@
+
+button
+{
+width: 40px;
+height: 40px;
+border-radius:  50%;
+color: rgb(246, 20, 20);
+      
+}
+yello
+{
+width: 40px;
+height: 40px;
+border-radius:  50%;
+color: rgb(186, 186, 24);
+}
+orang
+{
+width: 40px;
+height: 40px;
+border-radius:  50%;
+color: rgb(216, 93, 10);
+}
+blu
+{
+width: 40px;
+height: 40px;
+border-radius:  50%;
+color: rgb(16, 10, 197);
+}
+green
+{
+width: 40px;
+height: 40px;
+border-radius:  50%;
+color: rgb(8, 175, 27);
+}
+pink
+{
+width: 40px;
+height: 40px;
+border-radius:  50%;
+color: rgb(175, 8, 89);
+}
+
+table, th, td
+{
+border: 1px solid black;
+}
+table
+{
+    width: 10%;
+}
+tr
+{
+    vertical-align:middle;
+}

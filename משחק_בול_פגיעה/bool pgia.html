@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)file:///E:/OOP/html/bool%20pgia.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bool pgia.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+</head>
+<body>
+    <link rel="stylesheet" href="bool pgia.css">
+    <p>
+    <button id="red" onclick="circles('red')"></button>
+    <button id="yello" onclick="circles('yellow')"></button>
+    <button id="orange" onclick="circles('orange')"></button>
+    <button id="blue" onclick="circles('blue')"></button>
+    <button id="green" onclick="circles('green')"></button>
+    <button id="pink" onclick="circles('pink')"></button>
+    </p>
+    <br>
+    <h1 style="text-align:center ;">
+        לוח המשחק
+    </h1>
+    <div id="center">
+         <button id="back" onclick="back()" > back</button>
+         &nbsp &nbsp &nbsp &nbsp
+    <table id="table" >
+        <thead>
+            <tr>
+                <th>ניחוש</th>
+                <th></th>
+                <th>תוצאה</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <td ><div class="circle" id="a_0" style="background-color: white;"></div>
+                    <div class="circle" id="a_1" style="background-color: white;"></div>
+                    <div class="circle" id="a_2" style="background-color: white;"></div>
+                    <div class="circle" id="a_3" style="background-color: white;"></div>
+                </td>
+                <td ><button class="next" onclick="result()">next</button></td>
+                <td>
+                    <div class="circle" id="a_5" style="background-color: white;"></div>
+                    <div class="circle" id="a_6" style="background-color: white;"></div>
+                    <div class="circle" id="a_7" style="background-color: white;"></div>
+                    <div class="circle" id="a_8" style="background-color: white;"></div>
+                </td>
+            </tr>
+            <tr >
+                <td ><div class="circle" id="b_0" style="background-color: white;"></div>
+                    <div class="circle" id="b_1" style="background-color: white;"></div>
+                    <div class="circle" id="b_2" style="background-color: white;"></div>
+                    <div class="circle" id="b_3" style="background-color: white;"></div>
+                </td>
+                <td ><button class="next" onclick="result()">next</button></td>
+                <td ><div class="circle" id="b_5" style="background-color: white;"></div>
+                    <div class="circle" id="b_6" style="background-color: white;"></div>
+                    <div class="circle" id="b_7" style="background-color: white;"></div>
+                    <div class="circle" id="b_8" style="background-color: white;"></div>
+                </td>
+            </tr>
+            <tr >
+                <td ><div class="circle" id="c_0" style="background-color: white;"></div>
+                    <div class="circle" id="c_1" style="background-color: white;"></div>
+                    <div class="circle" id="c_2" style="background-color: white;"></div>
+                    <div class="circle" id="c_3" style="background-color: white;"></div>
+                </td>
+                <td ><button class="next" onclick="result()">next</button></td>
+                <td ><div class="circle" id="c_5" style="background-color: white;"></div>
+                    <div class="circle" id="c_6" style="background-color: white;"></div>
+                    <div class="circle" id="c_7" style="background-color: white;"></div>
+                    <div class="circle" id="c_8" style="background-color: white;"></div>
+                </td>
+            </tr>
+            <tr >
+                <td ><div class="circle" id="d_0" style="background-color: white;"></div>
+                    <div class="circle" id="d_1" style="background-color: white;"></div>
+                    <div class="circle" id="d_2" style="background-color: white;"></div>
+                    <div class="circle" id="d_3" style="background-color: white;"></div>
+                </td>
+                <td ><button class="next" onclick="result()">next</button></td>
+                <td ><div class="circle" id="d_5" style="background-color: white;"></div>
+                    <div class="circle" id="d_6" style="background-color: white;"></div>
+                    <div class="circle" id="d_7" style="background-color: white;"></div>
+                    <div class="circle" id="d_8" style="background-color: white;"></div>
+                </td>
+            </tr>
+            <tr >
+                <td ><div class="circle" id="e_0" style="background-color: white;"></div>
+                    <div class="circle" id="e_1" style="background-color: white;"></div>
+                    <div class="circle" id="e_2" style="background-color: white;"></div>
+                    <div class="circle" id="e_3" style="background-color: white;"></div>
+                </td>
+                <td ><button class="next" onclick="result()">next</button></td>
+                <td ><div class="circle" id="e_5" style="background-color: white;"></div>
+                    <div class="circle" id="e_6" style="background-color: white;"></div>
+                    <div class="circle" id="e_7" style="background-color: white;"></div>
+                    <div class="circle" id="e_8" style="background-color: white;"></div>
+                </td>
+            </tr>
+            <tr >
+                <td ><div class="circle" id="f_0" style="background-color: white;"></div>
+                    <div class="circle" id="f_1" style="background-color: white;"></div>
+                    <div class="circle" id="f_2" style="background-color: white;"></div>
+                    <div class="circle" id="f_3" style="background-color: white;"></div>
+                </td>
+                <td ><button class="next" onclick="result()">next</button></td>
+                <td ><div class="circle" id="f_5" style="background-color: white;"></div>
+                    <div class="circle" id="f_6" style="background-color: white;"></div>
+                    <div class="circle" id="f_7" style="background-color: white;"></div>
+                    <div class="circle" id="f_8" style="background-color: white;"></div>
+                </td>
+            </tr>
+            <tr >
+                <td ><div class="circle" id="g_0" style="background-color: white;"></div>
+                    <div class="circle" id="g_1" style="background-color: white;"></div>
+                    <div class="circle" id="g_2" style="background-color: white;"></div>
+                    <div class="circle" id="g_3" style="background-color: white;"></div>
+                </td>
+                <td ><button class="next" onclick="result()">next</button></td>
+                <td ><div class="circle" id="g_5" style="background-color: white;"></div>
+                    <div class="circle" id="g_6" style="background-color: white;"></div>
+                    <div class="circle" id="g_7" style="background-color: white;"></div>
+                    <div class="circle" id="g_8" style="background-color: white;"></div>
+                </td>
+            </tr>
+            <tr >
+                <td ><div class="circle" id="h_0" style="background-color: white;"></div>
+                    <div class="circle" id="h_1" style="background-color: white;"></div>
+                    <div class="circle" id="h_2" style="background-color: white;"></div>
+                    <div class="circle" id="h_3" style="background-color: white;"></div>
+                </td>
+                <td ><button class="next" onclick="result()">next</button></td>
+                <td ><div class="circle" id="h_5" style="background-color: white;"></div>
+                    <div class="circle" id="h_6" style="background-color: white;"></div>
+                    <div class="circle" id="h_7" style="background-color: white;"></div>
+                    <div class="circle" id="h_8" style="background-color: white;"></div>
+                </td>
+            </tr>
+            <tr >
+                <td ><div class="circle" id="i_0" style="background-color: white;"></div>
+                    <div class="circle" id="i_1" style="background-color: white;"></div>
+                    <div class="circle" id="i_2" style="background-color: white;"></div>
+                    <div class="circle" id="i_3" style="background-color: white;"></div>
+                </td>
+                <td ><button class="next" onclick="result()">next</button></td>
+                <td ><div class="circle" id="i_5" style="background-color: white;"></div>
+                    <div class="circle" id="i_6" style="background-color: white;"></div>
+                    <div class="circle" id="i_7" style="background-color: white;"></div>
+                    <div class="circle" id="i_8" style="background-color: white;"></div>
+                </td>
+            </tr>
+            <tr >
+                <td ><div class="circle" id="j_0" style="background-color: white;"></div>
+                    <div class="circle" id="j_1" style="background-color: white;"></div>
+                    <div class="circle" id="j_2" style="background-color: white;"></div>
+                    <div class="circle" id="j_3" style="background-color: white;"></div>
+                </td>
+                <td ><button class="next" onclick="result()">next</button></td>
+                <td ><div class="circle" id="j_5" style="background-color: white;"></div>
+                    <div class="circle" id="j_6" style="background-color: white;"></div>
+                    <div class="circle" id="j_7" style="background-color: white;"></div>
+                    <div class="circle" id="j_8" style="background-color: white;"></div>
+                </td>
+            </tr>
+    </table>
+</div>
+    <div id="icon" >wow you win!! <i style='font-size:larger;color: rgb(192, 20, 7);' class='fas fa-trophy'></i>
+         <i style='font-size:larger;color: rgb(143, 30, 62);' class='fas fa-trophy'></i></div>
+    <script src="bool_pgia.js"></script>
+</body>
+</html>
